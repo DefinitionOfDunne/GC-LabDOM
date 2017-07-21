@@ -1,0 +1,14 @@
+body{
+	background-color: green;
+}
+
+iframe {
+	height: 5em;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+}
+
+canvas {
+}
