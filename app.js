@@ -1,16 +1,15 @@
+"use strict"
+
 function draw() {
-  var canvas = document.getElementById('canvas');
-  var userInput = document.getElementById('circle-rad')
-  var radius = userInput.value;
-  if (canvas.getContext) {
-    var ctx = canvas.getContext('2d');
-    ctx.beginPath();
-    ctx.arc(75, 75, radius, 0, Math.PI * 2, true);
-    ctx.stroke();
-  }
+    var userInput = document.getElementById('circle-rad');
+    var radius = userInput.value;
+    var draw = SVG('drawing').size(300, 130);
+    var circ = draw.circle(radius).fill('#f06');
+
 }
 
-draw();
+
+
 
 // Calculate area of circle
 // Add animations
