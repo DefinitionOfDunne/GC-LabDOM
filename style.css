@@ -1,19 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 body{
-	background-color: green;
+	background-color: navy;
+	font-family: 'Raleway', sans-serif;
 }
 
+h1{
+	color: gainsboro;
+	text-align: center;
+}
+li {
+	color: gainsboro;
+	text-align: center;
+    list-style: none;
+}
 iframe {
 	height: 5em;
-	position: fixed;
 	bottom: 0;
 	width: 100%;
 	left: 0;
 }
-
+button {
+	display: block;
+	margin: 0 auto;
+}
+#circle-rad {
+	display: block;
+	margin: 0 auto;
+}
 #canvas-wrapper{
 	width: 100%;
 	height: 40em;
 }
-
+#drawing {
+	height: 750px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 canvas {
 }
