@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 body{
 	background-color: navy;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
-h1{
+h1, h2, p{
 	color: gainsboro;
 	text-align: center;
 }
@@ -21,12 +21,28 @@ iframe {
 	left: 0;
 }
 button {
-	display: block;
-	margin: 0 auto;
+    display: block;
+    width: 5em;
+    height: 5em;
+    margin: 5em auto;
+    border-radius: 10px;
+    text-decoration: none;
+    background: white;
+    border: none;
+    font-variant: small-caps;
 }
 #circle-rad {
-	display: block;
-	margin: 0 auto;
+    display: block;
+    margin: 3em auto;
+    width: 20em;
+    height: 2em;
+    border-radius: 5px;
+    text-align: center;
+}
+#drawing{
+	background-color: #eaf9fe;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px grey;
 }
 #canvas-wrapper{
 	width: 100%;
@@ -37,5 +53,10 @@ button {
     max-width: 1000px;
     margin: 0 auto;
 }
-canvas {
+#output-list{
+	margin: 5em;
+    font-size: 2em;
+}
+li {
+	margin:1em 0;
 }

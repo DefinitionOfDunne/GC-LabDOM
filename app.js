@@ -22,5 +22,3 @@ function findArea(rad) {
     outputList.appendChild(output);
     console.log(area);
 }
-
-// Improve design
